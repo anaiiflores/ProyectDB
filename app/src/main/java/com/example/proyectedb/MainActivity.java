@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         editTextComentario = findViewById(R.id.editTextComentario);
         btnCrear = findViewById(R.id.btnCrear);
         btnVer = findViewById(R.id.btnVer);
-        textViewComentarios = findViewById(R.id.textViewComentarios);
+        textViewComentarios = findViewById(R.id.textViewComentario);
         spinnerComentarios = findViewById(R.id.spinnerComentarios);
         borrarmemoria = findViewById(R.id.BorrarMemoria);
 
