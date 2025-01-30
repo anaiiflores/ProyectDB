@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center">
+
+
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:textSize="18sp"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextComentario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Comentario"
+        android:textSize="18sp"
+        android:inputType="text"
+        android:layout_marginBottom="16dp"
+        android:padding="16dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerComentarios"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnCrear"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Crear"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnVer"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Ver"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/BorrarMemoria"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
+        android:text="Borrar"
+        android:textSize="18sp" />
+
+
+
+    <TextView
+        android:id="@+id/textViewComentarios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"/>
+
+
+</LinearLayout>
